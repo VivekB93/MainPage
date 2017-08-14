@@ -199,9 +199,10 @@ nav button {
 	height: 50px; 
 	width: 50px;
 	border-radius: 50%; 
-	border: 1px solid white !important; 
+	border: 1px solid white; 
 	display: inline-flex; 
 	margin: 3px;
+	background-color: white;
 }
 
 .ftr_center {text-align: center;}
