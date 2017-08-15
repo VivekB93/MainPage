@@ -63,40 +63,4 @@ input {
 	.row3 img {
 		/*float: right;*/
 	}
-
-	.row14 {
-		background-color: transparent;
-	}
-
-	.ftr_nav, .ftr_left h4, .ftr_left a {display: none;}
-	
-	.ftr_right a {color: black;}
-	.ftr_center img {display: none;}
-	.ftr_center p {
-		font-size: 16px !important;
-		padding: 10px 0px;
-		margin: 0px;
-		background-color: rgb(103,188,105);
-		display: 
-	}
-
-	.ring-sm {
-		margin: 0% 0% 0% 10%;
-	}
-}
-
-.ring-fb {
-	border: 2px solid #47C6BE !important;
-}
-
-.ring-tw {
-	border: 2px solid #00C7FF !important;
-}
-
-.ring-yt {
-	border: 2px solid #FD3832 !important;
-}
-
-.ring-ln {
-	border: 2px solid #0B86CA !important;
 }

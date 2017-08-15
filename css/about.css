@@ -1,0 +1,20 @@
+.row1 {
+	background-image: url("../images/about/bg-row1.png");
+	height: 550px;
+}	
+
+@media (max-width: 768px) {
+	.row3 h2 {
+		text-align: center;
+	}
+
+	.row3 p {
+		padding: 10px 20px;
+	}
+}
+
+.row4 {
+	background-color: #55CAC4;
+	color: white;
+	margin: 10px 0px;
+}

@@ -64,7 +64,7 @@ nav ul {
 
 .navbar-header {width: 100% !important;}
 
-@media (min-width: 960px) {
+@media (min-width: 940px) {
 	.navbar-center {
 		position: absolute;
 		right: 22%;
@@ -157,7 +157,16 @@ nav button {
 .navbar-right ul li a{display: inline !important;}
 
 .row1 {
-	margin: 5% 0px 0px 0px !important;
+	margin: 70px 0px 0px 0px !important;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.row1-scroll {
+	position: absolute;
+	bottom: 5%;
+	left: 45%;
 }
 
 .row14 {
@@ -202,7 +211,6 @@ nav button {
 	border: 1px solid white; 
 	display: inline-flex; 
 	margin: 3px;
-	background-color: white;
 }
 
 .ftr_center {text-align: center;}
@@ -220,4 +228,48 @@ nav button {
 	font-size: 16px;
 	text-align: center;
 	/*margin-top: 25%;*/
+}
+
+.ftr_copyright {
+	color: white;
+	background-color: rgb(103,188,105);
+	padding: 10px 0px;
+}
+
+@media (max-width: 768px){
+
+	.row14 {
+		background-color: transparent;
+	}
+
+	.ftr_nav, .ftr_center, .ftr_left h4, .ftr_left a {display: none;}
+	
+	.ftr_right a {color: black;}
+
+	.ring-sm {
+		margin: 0% 0% 0% 12%;
+		background-color: white;
+	}
+
+	.ring-fb {
+	border: 2px solid #47C6BE !important;
+	}
+
+	.ring-tw {
+		border: 2px solid #00C7FF !important;
+	}
+
+	.ring-yt {
+		border: 2px solid #FD3832 !important;
+	}
+
+	.ring-ln {
+		border: 2px solid #0B86CA !important;
+	}
+}
+
+@media (max-width: 560px) {
+	.ring-sm {
+		margin-left: 5% !important;
+	}
 }
